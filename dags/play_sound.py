@@ -17,7 +17,7 @@ with open("/usr/local/airflow/dags/mount/config.yml") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
 
 def play_sound(file, amount):
-    for i in range(amount):
+    for _ in range(amount):
         mp3 = Mpg123(file)
         out = Out123()
         for frame in mp3.iter_frames(out.start):

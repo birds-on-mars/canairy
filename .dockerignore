@@ -1,0 +1,7 @@
+# git
+.git
+.gitattributes
+.gitignore
+
+.DS_STORE
+.vscode

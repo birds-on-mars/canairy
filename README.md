@@ -47,7 +47,7 @@ TODO
 ### Building it from GitHub
 From the terminal:
 1. With `cd <directory>` move to the desired target directory
-2. Clone this repository onto the Raspberry Pi: `git clone <link>` TODO
+2. Clone this repository onto the Raspberry Pi: `git clone git@github.com:birds-on-mars/OpenAirFlow.git`
 3. Go to the project folder: `cd openairflow`
 4. Build the image: `docker build --rm -t openairflow:v1 .` (this step might take quite long, up to several hours)
 

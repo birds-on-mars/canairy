@@ -18,32 +18,35 @@ with open("/usr/local/airflow/dags/mount/config.yml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
 
 
-def play_sound(file, amount):
-    """Plays a sound from a given file an amount of times
+def play_sound(filename, amount):
+    """
+    Plays a sound from a given file an amount of times
 
     Args:
-        file (string): file directory
+        filename (string): filename of sound file
         amount (int): number of times to play the file
     """
     for _ in range(amount):
-        mp3 = Mpg123(file)
+        mp3 = Mpg123(filename)
         out = Out123()
         for frame in mp3.iter_frames(out.start):
             out.play(frame)
 
 
 def play_start():
-    """Take start_file and start_amount from config and run play_sound with it.
     """
-    filedir = "/usr/local/airflow/dags/mount/%s" % config["start_file"]
-    play_sound(filedir, config["start_amount"])
+    Take start_file and start_amount from config and run play_sound with it.
+    """
+    filename = "/usr/local/airflow/dags/mount/%s" % config["start_file"]
+    play_sound(filename=filename, amount=config["start_amount"])
 
 
 def play_end():
-    """Take end_file and end_amount from config and run play_sound with it.
     """
-    filedir = "/usr/local/airflow/dags/mount/%s" % config["end_file"]
-    play_sound(filedir, config["end_amount"])
+    Take end_file and end_amount from config and run play_sound with it.
+    """
+    filename = "/usr/local/airflow/dags/mount/%s" % config["end_file"]
+    play_sound(filename=filename, amount=config["end_amount"])
 
 
 with DAG(

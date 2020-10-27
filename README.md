@@ -1,8 +1,16 @@
 # OpenAirFlow
-**Warum in eurem Büro ein Hahn krähen sollte**
+**Why should a rooster crows in your office?**
 
-Alle sprechen von Airflow - Wir haben es mal ganz wörtlich genommen und geben euch ein Bastelkit an die Hand, mit dem ihr ein Problem lösen könnt, über das ebenfalls alle sprechen: Ob drei oder tausend Mitarbeiter*innen stark - jedes Unternehmen ist gerade vor die Herausforderung gestellt, so zu lüften, dass sich Viren im Team nicht verbreiten können - wir meinen natürlich echte Viren, machen uns aber Software zunutze, die wir bei Birds on Mars ohnehin schon an vielen Stellen nutzen: „Apache Airflow” ist derzeit in aller Munde, wenn es um die produktive und nachhaltige Entwicklung von KI geht. Unsere Open Source Bibliothek „OpenAirFlow” liefert euch auf dem goldenen Dockertablett die Möglichkeit, einen krähenden Hahn zu programmieren, der euer Lüften koordiniert. Installiert die Software einfach auf einem Raspberry Pi, konfiguriert die Zeiten eures „Airflows” entsprechend eurer individuellen Voraussetzungen und werdet regelmäßig an das Lüften erinnert! Macht mit, bringt Airflow in eure Umgebung und helft uns eine zweite Version mit integrierten CO2 Sensoren zu entwickeln. Wir sind gespannt auf eure Ideen!
-
+Everyone is talking about Airflow. - We took it literally and created a kit for you to solve a problem everyone is 
+talking about as well: 
+Whether you are three or a thousand employees - every organization is now facing the challenge to air spaces in a way 
+that viruses cannot spread within the team. 
+We mean real viruses of course, but use software we already integrated in our work at Birds on Mars: 
+When it comes to the productive and sustainable development of AI, “Apache Airflow” is currently on everyone’s lips. 
+Our open source library “OpenAirFlow” provides you on the golden docker tray with the possibility to program a 
+crowing tap that coordinates your airing. 
+Just install the software on a Raspberry Pi, set the times of your “airflow” according to your individual conditions 
+and be reminded regularly to air your place! Join in, bring airflow into your environment and help us develop a second version with integrated CO2 sensors. We are excited about your ideas!
 ## Project Setup
 
 ### Requirements

@@ -1,16 +1,17 @@
 # OpenAirFlow
-**Why should a rooster crows in your office?**
+**Why a rooster should crow in your office**
 
-Everyone is talking about Airflow. - We took it literally and created a kit for you to solve a problem everyone is 
-talking about as well: 
-Whether you are three or a thousand employees - every organization is now facing the challenge to air spaces in a way 
+Everyone is talking about Airflow. We took it literally and created a kit for you to solve a problem everyone is 
+talking about as well: Whether you are three or a thousand employees - every organization is now facing the challenge to air spaces in a way 
 that viruses cannot spread within the team. 
+
 We mean real viruses of course, but use software we already integrated in our work at Birds on Mars: 
-When it comes to the productive and sustainable development of AI, “Apache Airflow” is currently on everyone’s lips. 
+When it comes to the productive and sustainable development of AI “Apache Airflow” is currently on everyone’s lips. 
 Our open source library “OpenAirFlow” provides you on the golden docker tray with the possibility to program a 
 crowing tap that coordinates your airing. 
-Just install the software on a Raspberry Pi, set the times of your “airflow” according to your individual conditions 
-and be reminded regularly to air your place! Join in, bring airflow into your environment and help us develop a second version with integrated CO2 sensors. We are excited about your ideas!
+
+Just install the software on a Raspberry Pi, set the times of your “airflow” according to your individual conditions and be reminded regularly to air your place! Join in, bring airflow into your environment and help us develop a second version with integrated CO2 sensors. We are excited about your ideas!
+
 ## Project Setup
 
 ### Requirements

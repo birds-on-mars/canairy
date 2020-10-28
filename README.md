@@ -3,9 +3,9 @@
 
 Everyone is talking about Airflow. - We took its name at face value and created a kit for you to solve another problem everyone is talking about as well: Whether you are three or a thousand employees - organizations are now facing the challenge of airing spaces to prevent viruses from spreading within their teams.
 
-Although talking about real viruses, we are tackling the issue by using a virtual tool that is already integrated in our work at Birds on Mars: „Apache Airflow”, a workflow management platform which is currently on everyones lips when it comes to the productive and sustainable development of AI. Our open source library “OpenAirFlow”, provided to you on the golden docker tray, coordinates your airing by the crowing of a rooster.
+Although talking about real viruses, we are tackling the issue by using a virtual tool that is already integrated in our work at Birds on Mars: "Apache Airflow", a workflow management platform which is currently on everyones lips when it comes to the productive and sustainable development of AI. Our open source library "OpenAirFlow", provided to you on the golden docker tray, coordinates your airing by the crowing of a rooster.
 
-Just install the software on a Raspberry Pi, set the times of your “airflow” according to your individual conditions and be reminded regularly to air your place! Join in, bring airflow into your environment and help us develop a second version with integrated CO2 sensors. We are excited about your ideas!
+Just install the software on a Raspberry Pi, set the times of your "airflow" according to your individual conditions and be reminded regularly to air your place! Join in, bring airflow into your environment and help us develop a second version with integrated CO2 sensors. We are excited about your ideas!
 
 ## Project Setup
 
@@ -15,7 +15,10 @@ Just install the software on a Raspberry Pi, set the times of your “airflow”
 3. Connected audio device
 
 ### RaspberryPi Setup
-TODO
+We used [this](https://www.amazon.de/UCreate-Raspberry-Pi-Desktop-Starter/dp/B07BNPZVR7/) Raspberry 3 Model B+.
+Just assemble the case, put in the Micro SD card, connect a Monitor, keyboard and mouse and power the device on.
+
+Connect to a WIFI when prompted. Changing the other settings is not necessary. We however recommend not to skip the software updates, even though they take some time.
 
 ### Installing Docker on Raspbian
 We followed [this](https://phoenixnap.com/kb/docker-on-raspberry-pi) guide.

@@ -63,7 +63,7 @@ Replace `<image name>` with `birdsonmars/openairflow:v1` if you pulled from Dock
 - `<image name>` is the name if the docker image to start
 
 The Docker container is now running in the terminal and will always restart if closed or after rebooting the Raspberry Pi, until you stop it with `docker stop <container ID or name>` (get the ID with `docker ps`).
-We will use that to make sure the correct sound device is used. Depending on the Raspberry Pi Model, the Docker container might play sounds to the HDMI device while a monitor is connected. Fix this by unplugging any monitor and restarting the Raspberry Pi by cutting its power.
+We will use that to make sure the correct sound device is used. Depending on the Raspberry Pi Model, the Docker container might play sounds to the HDMI device while a monitor is connected. You can listen to these sounds by connecting your audio device to the HDMI monitor audio output. To get sounds from the standard audio jack output, disconnect the HDMI device and restart the raspberry pi by unplugging and replugging the power plug. This starts the raspberry pi in the so-called "headless mode".
 
 ### Changing the config and sound file
 To load your own config and/or sound file(s) into the docker container you need to have a folder containing the config.yml and/or sound file you want to use.

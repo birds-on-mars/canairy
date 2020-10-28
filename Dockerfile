@@ -8,7 +8,7 @@ ENV AIRFLOW_HOME=${AIRFLOW_HOME_USER}
 
 USER root
 
-RUN apt-get update -y & apt-get install mpg123 -y
+RUN apt-get update -y ; apt-get install mpg123 -y
 
 RUN pip3 install --upgrade pip
 RUN pip3 install apache-airflow mpg123

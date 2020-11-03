@@ -79,4 +79,4 @@ To use different sounds for the open and close reminder, or another sound in gen
 Please contact [Klaas](mailto:klaas@birdsonmars.com) or [Nico](mailto:nico@birdsonmars.com) for any questions.
 
 ## License
-All code is licensed under the Apache2 license.
+Canairy is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.md) for the full license text.

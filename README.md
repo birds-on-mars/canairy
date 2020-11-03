@@ -74,3 +74,9 @@ To change any settings copy the `config.yml` from the GitHub repository and chan
 The sound file we use is from [here](https://freesound.org/people/Lydmakeren/sounds/510906/) and converted to mp3.
 
 To use different sounds for the open and close reminder, or another sound in general, add it to the folder you will be mounting to the docker container. Change the values `start_file` and `end_file` in the `config.yml` to match the name(s) of your sound file(s). As by now only mp3 files are supported.
+
+## Contact
+Please contact [Klaas](mailto:klaas@birdsonmars.com) or [Nico](mailto:nico@birdsonmars.com) for any questions.
+
+## License
+All code is licensed under the Apache2 license.

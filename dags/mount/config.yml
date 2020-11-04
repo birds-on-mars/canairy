@@ -1,8 +1,8 @@
-start_amount: 3     # times the sound will be played as a reminder to open the windows
+start_amount: 2     # times the sound will be played as a reminder to open the windows
 end_amount: 1       # times the sound will be played as a reminder to close the windows
 
-start_file: sound.mp3       # file to be played on start (mp3 format)
-end_file: sound.mp3         # file to be played on end (mp3 format)
+start_file: canAIRy.mp3       # file to be played on start (mp3 format)
+end_file: canAIRy.mp3         # file to be played on end (mp3 format)
 
 # sound will only be triggered between these hours (in UTC)
 first_reminder: 6

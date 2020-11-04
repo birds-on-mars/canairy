@@ -1,11 +1,11 @@
-# Canairy
+# Can*air*y - Exploring AI technology for your airflow in times of Covid-19.
 "You don’t smell it, you don’t see it, but when the canary falls off the perch, there’s something wrong with your airflow!" - Just like the workers in the coal mines, that used canaries to be warned of deadly gases, you can use the animals in your modern workspaces - No bird will be hurt, we promise! 
 
 <img src="canairy.JPG" alt="canairy" width="300">
 
 ## About
 
-Canairy is an open source application provided to you to coordinate your airing and prevent viruses from spreading within your team. To solve the problem every company is currently facing we use "Apache Airflow", a workflow management platform that is on everyones lips when it comes to the productive and sustainable development of AI.
+Can*air*y is an open source application provided to you to coordinate your airing and prevent viruses from spreading within your team. To solve the problem every company is currently facing we use "Apache Airflow", a workflow management platform that is on everyones lips when it comes to the productive and sustainable development of AI.
 
 Just install the software on a Raspberry Pi, set the times of your "airflow" according to your individual conditions and be reminded regularly to air your place! How? Let the canary sing.
 
@@ -41,7 +41,7 @@ If your installation worked, `docker version` will show you the installed docker
 ### Connect Audio Device
 Connect any speakers you want to the AUX Audio Output of the Raspberry Pi.
 
-## Installing Canairy
+## Installing Can*air*y
 There are two options to get the Docker image.
 1. From Docker Hub
 2. Building it from GitHub sources
@@ -56,7 +56,7 @@ From the terminal:
 3. Go to the project folder: `cd canairy`
 4. Build the image: `docker build --rm -t canairy:v1 .` (this step might take quite long, up to several hours)
 
-## Starting Canairy
+## Starting Can*air*y
 Run `docker run -it --device /dev/snd -p 8080:8080 --name canairy --restart unless-stopped <image name>`
 Replace `<image name>` with `birdsonmars/canairy:v1` if you pulled from Docker Hub or with the name you chose with the `-t` flag if you have built the image yourself (eg `canairy:v1`)
 
@@ -85,4 +85,4 @@ To use different sounds for the open and close reminder, or another sound in gen
 Please contact [Klaas](mailto:klaas@birdsonmars.com) or [Nico](mailto:nico@birdsonmars.com) for any questions.
 
 ## License
-Canairy is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+Can*air*y is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.

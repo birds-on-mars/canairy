@@ -1,13 +1,13 @@
 # Canairy
-You don’t smell it, you don’t see it, but when the canary falls off the perch, there’s something wrong with your airflow!” - Just like the workers in the coal mines, that used canaries to be warned of deadly gases, you can use the animals in your modern workspaces - No bird will be hurt, we promise! 
+"You don’t smell it, you don’t see it, but when the canary falls off the perch, there’s something wrong with your airflow!" - Just like the workers in the coal mines, that used canaries to be warned of deadly gases, you can use the animals in your modern workspaces - No bird will be hurt, we promise! 
 
 <img src="canairy.JPG" alt="canairy" width="300">
 
 ## About
 
-Canairy is an open source application provided to you to coordinate your airing and prevent viruses from spreading within your team. To solve the problem every company is currently facing we use „Apache Airflow”, a workflow management platform that is on everyones lips when it comes to the productive and sustainable development of AI.
+Canairy is an open source application provided to you to coordinate your airing and prevent viruses from spreading within your team. To solve the problem every company is currently facing we use "Apache Airflow", a workflow management platform that is on everyones lips when it comes to the productive and sustainable development of AI.
 
-Just install the software on a Raspberry Pi, set the times of your “airflow” according to your individual conditions and be reminded regularly to air your place! How? Let the canary sing.
+Just install the software on a Raspberry Pi, set the times of your "airflow" according to your individual conditions and be reminded regularly to air your place! How? Let the canary sing.
 
 Join in, bring airflow into your environment and help us develop the next level with integrated CO2 sensors. We’re excited about your ideas!
 
@@ -77,7 +77,7 @@ Mount it to the docker container on startup by adding the following flag to the 
 To change any settings copy the `config.yml` from the GitHub repository and change any values you want.
 
 #### Sound File(s)
-The sound file we use is from [here](https://freesound.org/people/Lydmakeren/sounds/510906/) and converted to mp3.
+The sound file we use is from [here](https://freesound.org/people/ReadeOnly/sounds/85402/) and included alternatives are from [here](https://freesound.org/people/ReadeOnly/sounds/85404/) and [here](https://freesound.org/people/Lydmakeren/sounds/510906/), all converted to mp3.
 
 To use different sounds for the open and close reminder, or another sound in general, add it to the folder you will be mounting to the docker container. Change the values `start_file` and `end_file` in the `config.yml` to match the name(s) of your sound file(s). As by now only mp3 files are supported.
 

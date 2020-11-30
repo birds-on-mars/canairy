@@ -1,4 +1,4 @@
-# Can*air*y - Exploring AI technology for your airflow in times of Covid-19
+# Can*air*y - Coordinate your airflow in times of Covid-19
 "You don’t smell it, you don’t see it, but when the canary falls off the perch, there’s something wrong with your airflow!" - Just like the workers in the coal mines, that used canaries to be warned of deadly gases, you can use the animals in your modern workspaces - No bird will be hurt, we promise! 
 
 <img src="canairy.JPG" alt="canairy" width="300">
